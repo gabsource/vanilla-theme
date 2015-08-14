@@ -1,8 +1,8 @@
-name: Vanilla
-description: A plain starter template that implements account management, a blog and community forum.
-author: OctoberCMS
+name: Partials Bug PR1373
+description: Reproduce partial bug PR1373 (based on Vanilla components)
+author: BnB
 homepage: 'http://octobercms.com'
-code: Vanilla
+code: PartialsBug
 require:
     - RainLab.User
     - RainLab.Blog
