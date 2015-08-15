@@ -1,0 +1,6 @@
+{% if user %}
+    <p>Hello {{ user.name }} {{ user.surname }}</p>
+    <a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
+{% else %}
+    <p>Nobody is logged in</p>
+{% endif %}
